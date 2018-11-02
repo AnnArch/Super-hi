@@ -1,0 +1,175 @@
+body{
+	background-color: black;
+	color: white;
+	line-height: 1.5;
+	font-family: 'Space Mono', monospace;
+	font-size: 14px;
+}
+h1{
+	font-size: 24px;
+}
+.header{
+	margin-left: 100px;
+	margin-bottom: 150px;
+	margin-top: 150px;
+	max-width: 700px;
+}
+.logo{
+	width: 100%;
+}
+
+.about{
+	max-width: 350px;
+	margin-left: 100px;
+	margin-bottom: 90px;
+}
+section{
+	
+	margin-left: 100px;
+}
+.pic1{
+	max-width: 1200px;
+	margin-bottom: 90px;
+}
+.pic11{
+	width: 100%;
+}
+.pic2{
+	max-width: 630px;
+	margin-bottom: 50px;
+}
+.pic22{
+	width: 100%;
+}
+.lamp{
+	background-color: white;
+	color: black;
+	max-width: 630px;
+	
+}
+.lamp p{
+	padding: 14px;
+}
+
+.about2{
+	margin-bottom: 90px;
+	margin-top: 90px;
+	max-width: 350px;
+}
+.pic3{
+	max-width: 1100px;
+}
+.pic33{
+	width: 100%;
+}
+.chair{
+	background-color: white;
+	color: black;
+	max-width: 1100px;
+	
+}
+.chair p{
+	padding: 14px;
+	margin-bottom: 90px;
+	margin-top: 50px;
+}
+.pic4{
+	max-width: 1200px;
+	margin-bottom: 90px;
+}
+.pic44{
+	width: 100%;
+}
+.about3{
+	margin-bottom: 90px;
+}
+.process{
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-bottom: solid 1px white
+}
+.about3 p{
+	max-width: 500px;
+}
+h2{
+	font-size: 14px;
+	line-height: 1.5;
+	font-family: 'Space Mono', monospace;
+	margin-bottom: 0;
+}
+.contact {
+  display: block;
+   margin: 0 0 50px 0;
+
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+.social a {
+  padding: 0 45px 0 0;
+}
+
+footer{
+  background-color: #1A1A1A;
+  max-width: 1100px;
+  padding: 45px 0 45px 35px;
+  margin: 0 0 100px 0;
+}
+
+
+@media (max-width: 700px)
+{
+ 	body{
+ 	font-size: 12px;
+ 	}
+	 h1{
+	font-size: 12px;
+	}
+	section{
+	width: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: auto;
+	}
+	footer{
+	width: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: auto;
+	}
+	.two{
+	margin-bottom: -30px;
+	margin-right: -30px;
+	margin-left: -30px;
+	}
+
+	.header{
+
+	width: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: auto;
+	margin-top: 30px;
+	}
+	.about{
+	margin-left: 0px;
+	width: auto;
+	padding-top: 30px;
+	}
+	.about2{
+	margin-left: 0px;
+	width: auto;
+	}
+	footer{
+    margin: 0 -30px 0 -30px;
+
+  }
+  .social a{
+    display: block;
+    padding: 0 0 20px 0;
+  }
+
+}
